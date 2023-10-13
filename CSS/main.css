@@ -32,11 +32,16 @@ footer{
     position: absolute;
     bottom: 0;
     display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     font-size: 14px;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
+    
+    
 }
+
+
 
 header nav .nav-right-section{
 
@@ -144,5 +149,26 @@ main .main-buttons button:hover{
     color: #222;
 }
 
+footer ul {
+    margin: 10px;
+    list-style: none; /*para quitar los puntos de la lista*/
+    display: flex;
+    padding-left: 0;
+    padding: 0 20px;
+} 
 
+footer .footer-right{
+    
+    justify-content: right;
+}
 
+footer .footer-left{
+    
+    justify-content: left;
+    
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #6f7172;
+}
