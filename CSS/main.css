@@ -26,7 +26,7 @@ header nav {
     justify-content: flex-end;
 }
 
-footer{
+footer div {
     width: 100%;
     height: 50px;
     position: absolute;
@@ -34,7 +34,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     
@@ -141,6 +141,7 @@ main .main-buttons button {
     border-radius: 5px;
     padding: 0 15px;
     margin-right: 15px;
+    
 }
 
 main .main-buttons button:hover{
@@ -171,4 +172,23 @@ footer .footer-left{
 footer ul li a{
     margin: 10px;
     color: #6f7172;
+    font-size: 15px;
+}
+
+footer .footer-country{
+    height: 100px;
+    width: 100%;
+    border-style: none;
+    
+    
+}
+
+footer p{
+    height: 70px;
+    padding-left: 0;
+    padding: 0 20px;
+    margin: 10px;
+    color: #6f7172;
+    font-size: 17px;
+
 }
